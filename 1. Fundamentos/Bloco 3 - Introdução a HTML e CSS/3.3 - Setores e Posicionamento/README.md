@@ -16,7 +16,6 @@ No dia 3 do bloco 3, aprendi sobre Agrupamento de Seletores, Combinações e Cla
 
 ## Exercícios Posicionamento de Elementos:
 
-Personagens pertencentes à Nintendo©
 1 - Posicione o Mário acima do Goomba.
 2 - Posicione a tag p para que fique dentro do balão de fala.
 3 - Posicione o balão para que se torne uma fala de Bowser.
