@@ -1,4 +1,4 @@
-h1 {
+h1, h3 {
   text-align: center;
 }
 
@@ -34,12 +34,10 @@ h1 {
   text-align: center;
 }
 
-h3 {
+.premios {
     text-align: center;
 }
 
-.premios {
+.premios li{
     display: inline-block;
-    list-style: none;
-    text-align: center;
 }
