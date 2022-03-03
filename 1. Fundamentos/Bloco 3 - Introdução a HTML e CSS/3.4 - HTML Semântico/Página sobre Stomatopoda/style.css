@@ -4,26 +4,25 @@
 
 h1 {
     text-align: center;
-    color:rgb(255, 255, 255);
+    color:rgb(29, 114, 89);
     vertical-align: middle;
     padding: 20px;
-    background-color: rgb(53, 163, 130);
     font-size: 60px;
     font-family:fantasy;
 }
 
-ul {
+#indice {
     list-style: none;
     background-color: rgb(29, 114, 89);
     padding: 5px;
     text-align: center;
 }
 
-li {
+#indice li {
     display: inline-block;
 }
 
-a {
+#indice a {
     color:white;
     margin-right: 50px;
     text-decoration: none;
