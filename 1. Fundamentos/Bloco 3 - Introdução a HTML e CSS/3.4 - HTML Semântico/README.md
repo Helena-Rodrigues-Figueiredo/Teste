@@ -4,7 +4,8 @@
 *Lembre-se que a estrutura da página deve ser mantida para que a semântica do código seja preservada.
 
 ## HTML
-<!DOCTYPE html>
+
+"<!DOCTYPE html>
 <html lang="pt">
   <head>
     <meta charset="UTF-8">
@@ -70,7 +71,7 @@
       </ul>
     </section>
   </body>
-</html>
+</html>"
 
 - ## A proposta é deixar o arquivo HTML dado acima, igual na imagem abaixo:
 
