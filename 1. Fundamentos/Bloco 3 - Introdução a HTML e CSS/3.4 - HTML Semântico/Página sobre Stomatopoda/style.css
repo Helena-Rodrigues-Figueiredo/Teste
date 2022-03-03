@@ -11,6 +11,15 @@ h1 {
     font-family:fantasy;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:chocolate ;
+}
+
 #indice {
     list-style: none;
     background-color: rgb(29, 114, 89);
@@ -27,4 +36,22 @@ h1 {
     margin-right: 50px;
     text-decoration: none;
     font-size: 20px;
+}
+
+.fatos{
+    background-color: rgb(239, 255, 250);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fatos h3 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.fatos p {
+    margin: 0 100px;
+    text-align: center;
+    
 }
