@@ -11,3 +11,21 @@ h1 {
     font-size: 60px;
     font-family:fantasy;
 }
+
+ul {
+    list-style: none;
+    background-color: rgb(29, 114, 89);
+    padding: 5px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color:white;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
