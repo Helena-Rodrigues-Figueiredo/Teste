@@ -56,3 +56,32 @@ h2 {
     text-align: center;
 
 }
+
+#informacoes {
+    display: table-cell;
+    float: left;
+    margin-top: 12%;
+    font-size: 20px;
+}
+
+#informacoes h3 {
+    padding-bottom: 10px ;
+}
+
+#foto {
+    display: table-cell;
+    float: right;
+    border:7px solid rgb(29, 114, 89);
+}
+
+#inf-cientifica {
+    width: 1000px;
+    margin:auto;
+    padding: 30px;
+    display: table;
+    background-color: rgb(250, 250, 203);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px rgb(161, 161, 161);
+}
