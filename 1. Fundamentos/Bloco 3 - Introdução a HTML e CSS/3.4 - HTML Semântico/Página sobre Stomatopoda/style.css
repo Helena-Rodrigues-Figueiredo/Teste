@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(Mad);
+  }
+
 h1 {
     text-align: center;
     color:rgb(29, 114, 89);
@@ -111,4 +116,22 @@ h2 {
 .img-fotos {
     width: 400px;
     border: 5px ridge rgb(89, 124, 221);
+}
+
+#curiosidades h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 134, 219);
+}
+
+#curiosidades p {
+    font-size: 18px;
+}
+
+#video {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 25px;
+    text-decoration: underline;
 }
