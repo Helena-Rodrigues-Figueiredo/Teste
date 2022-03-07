@@ -1,0 +1,1 @@
+let salario: 1000;
