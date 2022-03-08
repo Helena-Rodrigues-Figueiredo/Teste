@@ -6,6 +6,6 @@ for (let index = 0; index < numbers.length; index += 1) {
     soma = soma + numbers[index];
 }
 
-media = soma/2;
+media = soma/(numbers.length);
 
 console.log(media);
