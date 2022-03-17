@@ -88,6 +88,67 @@
       sectionFilho2.classList = "left-content";
       main.appendChild(sectionFilho2);
 
+      // 6. Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
+
+      let sectionFilho3 = document.createElement("section");
+      sectionFilho3.classList = "right-content";
+      main.appendChild(sectionFilho3);
+
+      // 7. Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do section criado no passo 5;
+
+      let img = document.createElement("img");
+      img.classList = "small-imagem";
+      img.src = "https://picsum.photos/200";
+      sectionFilho2.appendChild(img);
+
+      // 8 - Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+
+      let listaNaoOrdenada = document.createElement("ul");
+      sectionFilho3.appendChild(listaNaoOrdenada);
+
+      let numeros = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez",];
+
+      for (index = 0; index < numeros.length; index += 1) {
+        let itemDaLista = document.createElement("li");
+        itemDaLista.innerHTML = numeros[index];
+        listaNaoOrdenada.appendChild(itemDaLista);
+      }
+
+      // 9 - Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+
+      for (index = 0; index < 3; index += 1) {
+        let adicionaTagH3 = document.createElement("h3");
+        main.appendChild(adicionaTagH3);
+      }
+
+      // 10 - Adicione a classe title na tag h1 criada;
+
+      h1.classList = "title";
+
+      // 11 - Adicione a classe description nas 3 tags h3 criadas;
+
+      let tagsH3 = document.getElementsByTagName("h3");
+      for (index = 0; index < tagsH3.length; index += 1) {
+        tagsH3[index].classList = "description";
+      }
+
+      // 12 - Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild() ;
+
+      main.removeChild(sectionFilho2);
+
+      // 13 - Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section ;
+
+      sectionFilho3.style.margin = "auto";
+
+      // 14 - Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
+
+      main.style.backgroundColor = "green";
+
+      // 15 - Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+
+      document.ul.lastChild.removeChild();
+      document.ul.lastChild.removeChild();
+
     </script>
   </body>
 </html>
