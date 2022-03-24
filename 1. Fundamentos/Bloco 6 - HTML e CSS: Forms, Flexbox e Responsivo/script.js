@@ -1,6 +1,6 @@
 const btnEnviar = document.getElementById('envia-informacoes');
 const btnApagar = document.getElementById('apaga-informacoes');
-const corpoForm = document.querySelector('fieldset');
+const corpoForm = document.querySelectorAll('input');
 
 function interrompeComportamento(event) {
     event.preventDefault();
