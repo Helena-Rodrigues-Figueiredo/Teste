@@ -38,6 +38,10 @@ html {
       border-radius: 10px;
   }
 
+  .aside-one {
+      margin-right: 5px;
+  }
+
   .information aside h2 {
       text-align: center;
   }
@@ -52,4 +56,33 @@ html {
 
   .main-content h1 {
       text-align: center;
+  }
+
+  @media screen and (min-width: 600px) {
+    #nome-do-livro {
+        color: orangered;
+        font-size: 2em;
+    }
+
+    #menu ul {
+        background-color: orangered;
+        color: white;
+        font-weight: 600;
+        height: 40px;
+        font-size: 1.2em;
+    }
+
+    .information {
+        justify-content: space-evenly;
+    }
+
+    .information aside {
+        background-color: rgb(253, 224, 213);
+        font-size: 1.1em;
+    }
+
+    footer {
+        text-align: center;
+        margin: 0 20%;
+    }
   }
