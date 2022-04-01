@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#nome-do-livro {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: blueviolet;
+  margin-top: 0;
+}
+
+#menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: blueviolet;
+  color: white;
+  font-weight: 600;
+  height: 30px;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.information aside {
+  background-color: rgb(225, 220, 245);
+  border-radius: 10px;
+}
+
+.aside-one {
+  margin-right: 5px;
+}
+
+.information aside h2 {
+  text-align: center;
+}
+
+.information aside ul li {
+  width: 95%;
+}
+
+.main-content {
+  margin: 0 3%;
+}
+
+.main-content h1 {
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  #nome-do-livro {
+    color: orangered;
+    font-size: 2em;
+  }
+
+  #menu ul {
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    height: 40px;
+    font-size: 1.2em;
+  }
+
+  .information {
+    justify-content: space-evenly;
+  }
+
+  .information aside {
+    background-color: rgb(253, 224, 213);
+    font-size: 1.1em;
+  }
+
+  footer {
+    text-align: center;
+    margin: 0 20%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  #nome-do-livro {
+    font-size: 3em;
+    color: rgb(21, 116, 179);
+  }
+
+  #menu ul {
+    background-color: rgb(21, 116, 179);
+    height: 50px;
+    font-size: 1.4em;
+  }
+
+  .information {
+    display: block;
+  }
+
+  .information aside {
+    background-color: rgb(208, 230, 245);
+    padding: 10px 20px;
+    margin-top: 5px;
+  }
+}
