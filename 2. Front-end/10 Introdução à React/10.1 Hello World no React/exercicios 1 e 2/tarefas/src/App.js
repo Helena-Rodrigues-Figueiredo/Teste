@@ -1,6 +1,6 @@
 import React from "react";
 
-const tarefas = ['café', 'academia', 'compras', 'estudar'];
+const tarefas = ['Café', 'Academia', 'Compras', 'Estudar'];
 
 const Task = (value) => {
   return (
