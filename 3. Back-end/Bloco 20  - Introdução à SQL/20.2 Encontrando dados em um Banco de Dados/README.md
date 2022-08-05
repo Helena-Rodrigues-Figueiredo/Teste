@@ -1,0 +1,1 @@
+#Exercícios do dia 20.2
