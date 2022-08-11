@@ -2,7 +2,7 @@
 
 Para realizar os exercícios propostos para o dia, faremos uso da tabela employees do banco de dados hr. O banco de dados pode ser gerado e restaurado usando o seguinte arquivo: <br />
 
-[Banco de dados](/exercicio21.1.sql)
+[Banco de dados](https://github.com/Helena-Rodrigues-Figueiredo/trybe-exercises/blob/master/3.%20Back-end/Bloco%2021%20-%20Fun%C3%A7%C3%B5es%20SQL%2C%20JOINs%20e%20Normaliza%C3%A7%C3%A3o/exercicio21.1.sql)
 
 ## Exercícios
 
