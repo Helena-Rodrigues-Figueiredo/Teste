@@ -65,7 +65,7 @@ INSERT INTO box_office(movie_id, rating, domestic_sales, international_sales)
          (10, 7.4, 460000000, 510000000),
          (9, 6.8, 450000000, 370000000),
          (11, 9.9, 290000000, 280000000);
-         ```
+```
 
 ## Exercícios
 
